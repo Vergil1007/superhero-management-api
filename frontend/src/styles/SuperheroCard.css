@@ -1,0 +1,26 @@
+.superhero-card {
+  font-family: "Comic Neue", cursive;
+  word-break: break-word;
+  width: 220px;
+  height: 300px;
+  border: 1px solid #d32f2f;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  background-color: #f8f8f8;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.superhero-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.superhero-image {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 10px;
+}

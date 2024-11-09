@@ -1,0 +1,76 @@
+.modal-input,
+.modal-textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.modal-input:focus,
+.modal-textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.margin-top {
+  margin-top: 15px;
+}
+
+.modal-textarea {
+  height: 100px;
+  resize: none;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.edit-image {
+  display: block;
+  width: 100% !important;
+  transition: opacity 0.3s ease;
+}
+
+.image-container:hover .edit-image {
+  opacity: 0.6;
+}
+
+.delete-image-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  padding: 10px 15px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.image-container:hover .delete-image-button {
+  display: block;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+}
+
+.form-row strong {
+  width: 150px;
+  text-align: left;
+}
+
+.save-button {
+  margin-left: auto;
+  background-color: #28a745;
+  color: white;
+}
+
+.save-button:hover {
+  background-color: #218838;
+}
